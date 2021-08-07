@@ -78,4 +78,21 @@ for v in range(1,m):
 #    print("_" * (m - v - 1) "*" * v)
     print("%s%s" % (" " * (m - v - 1),"*" * v))
 
-    
+"""
+*
+**
+***
+****
+*****
+****
+***
+**
+*
+"""
+m = 10
+c = m/2
+for v in range(1,m):
+    if v<=c:
+        print("*" * v)
+    else:
+        print("*" * (m - v))

@@ -38,6 +38,44 @@ v = 4; ****
 v = 5; *****
 """
 
-"""
 
 """
+*****
+****
+***
+**
+*
+"""
+m = 6
+for v in range(1,m):
+    print("*" * ( m - v))
+    
+
+
+"""
+1 odd
+2 even
+3 odd
+"""
+for i in range(1,11):
+    w = str(i)
+    if i%2==0:
+        w += " even"
+    else:
+        w += " odd"
+    print(w)
+
+
+"""
+    *
+   **
+  ***
+ ****
+*****
+"""
+m = 6
+for v in range(1,m):
+#    print("_" * (m - v - 1) "*" * v)
+    print("%s%s" % (" " * (m - v - 1),"*" * v))
+
+    

@@ -1,6 +1,7 @@
 for i in range(1,11):
     print(i)
-    
+print()
+print()
 x = ["a", "b", "c", "d", "e"]
 for e in x:
     print(e)
@@ -20,6 +21,7 @@ a += b # compound operator
 print(a)
 
 
+
 """
 *
 **
@@ -27,6 +29,8 @@ print(a)
 ****
 *****
 """
+print()
+print()
 for v in range(1,6):
     print("*" * v )
 
@@ -39,6 +43,7 @@ v = 5; *****
 """
 
 
+
 """
 *****
 ****
@@ -46,6 +51,8 @@ v = 5; *****
 **
 *
 """
+print()
+print()
 m = 6
 for v in range(1,m):
     print("*" * ( m - v))
@@ -57,6 +64,8 @@ for v in range(1,m):
 2 even
 3 odd
 """
+print()
+print()
 for i in range(1,11):
     w = str(i)
     if i%2==0:
@@ -66,6 +75,7 @@ for i in range(1,11):
     print(w)
 
 
+
 """
     *
    **
@@ -73,10 +83,14 @@ for i in range(1,11):
  ****
 *****
 """
+print()
+print()
 m = 6
 for v in range(1,m):
 #    print("_" * (m - v - 1) "*" * v)
     print("%s%s" % (" " * (m - v - 1),"*" * v))
+
+
 
 """
 *
@@ -89,6 +103,8 @@ for v in range(1,m):
 **
 *
 """
+print()
+print()
 m = 10
 c = m/2
 for v in range(1,m):
@@ -96,3 +112,26 @@ for v in range(1,m):
         print("*" * v)
     else:
         print("*" * (m - v))
+
+
+
+"""
+*****
+****
+***
+**
+*
+**
+***
+****
+*****
+"""
+print()
+print()
+m = 10
+c = m/2
+for v in range(1,m):
+    if v<=c:
+        print("*" * (m - v - 4))
+    else:
+        print("*" * (v-4))
